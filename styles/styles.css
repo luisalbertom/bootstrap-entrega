@@ -18,9 +18,7 @@ a{
   color: black;
  
 }
-img{
-  width: 100%;
-}
+
 
 
 /*aqui comienza el body, header */
@@ -98,6 +96,24 @@ ul {
     
   
   /* fin del header comienza el main index*/
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+.card {
+  border-color: black;
+  border-radius: 20px solid;
+  
+}
+
+.card.choc img{
+  height: 260px;
+}
 
 .titulos  {
 display: flex;
