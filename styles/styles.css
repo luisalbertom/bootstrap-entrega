@@ -104,16 +104,26 @@ ul {
   margin: 0px;
   margin-bottom: 200px;
   margin-top: 200px;
+  
+
 }
 .card {
   border-color: black;
-  border-radius: 20px solid;
+  border-radius: 20px ;
+  background-color:#858080;
   
 }
 
 .card.choc img{
-  height: 260px;
+  height: 300px;
 }
+ div a { 
+  width: 280px;
+
+  
+
+}
+
 
 .titulos  {
 display: flex;
