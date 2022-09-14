@@ -353,9 +353,12 @@ footer a img {
   
   }
   .marcass:hover{
-    padding: 1rem;
+    padding: 1rem ;
+    transition: all 1.5s;
+    
     
   }
+  
 
 aside {
   justify-content: center;
