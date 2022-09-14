@@ -313,19 +313,20 @@ footer a img {
   padding: 18px;
 }
 
-.header {
+/*.header {
   grid-area: header;
   position: fixed;
   margin: 0px;
   padding: 18px;
   width: 1200px;
+  }*/
 
 
-}
 
 
 
-.main {
+
+/*.main {
   grid-area: productos;
   font-size: 18px;
   padding: 18px;
@@ -336,6 +337,25 @@ footer a img {
   margin-top: 200px;
 
 }
+*/
+.marcass {
+  display: flex;
+  align-content: space-between;
+  background-image: linear-gradient URL(./images/gomitas.jpg);
+  font-size: 1.5rem;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer ;
+  transition: padding 0.30 ease ;
+  width: 500px;
+  height: 210px;
+  
+  }
+  .marcass:hover{
+    padding: 1rem;
+    
+  }
 
 aside {
   justify-content: center;
