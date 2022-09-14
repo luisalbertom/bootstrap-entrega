@@ -99,9 +99,7 @@ ul {
 
 
 /* fin del header comienza el main index*/
-.glas{
 
-}
 
 .fondo{
   width: 1300px
@@ -137,12 +135,13 @@ ul {
   border-color: black;
   border-radius: 20px;
   background-color:aliceblue;
-  
+  margin: 10px;
+  padding: 5px;
 
 }
 
 .card.choc img {
-  height: 378px;
+  height: 350px;
   
 }
 
@@ -344,7 +343,13 @@ aside {
 }
 
 
-
+.color li{
+  background-color: #71d9f8;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 25px ;
+  list-style: none;
+}
 
 footer {
   grid-area: footer;
@@ -353,8 +358,14 @@ footer {
 }
 
 .redes img {
+  
   width: 150px;
-  height: 150px
+  height: 150px;
+  
+}
+.redes{
+  display:inline ;
+  
 }
 
 /*
