@@ -101,26 +101,26 @@ ul {
 /* fin del header comienza el main index*/
 
 
-.fondo{
+.fondo {
   width: 1300px
-  
-}
-.clap{
-  width: 1250px;
-  right: 35px;
-  
 }
 
-.container{
-  text-align:justify;
+.clap {
+  width: 1250px;
+  right: 35px;
+
+}
+
+.container {
+  text-align: justify;
   padding: 5px;
   margin: 3px;
 }
 
-  
+
 
 .cards {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   padding: 0px;
   margin: 0px;
@@ -134,7 +134,7 @@ ul {
 
   border-color: black;
   border-radius: 20px;
-  background-color:aliceblue;
+  background-color: aliceblue;
   margin: 10px;
   padding: 5px;
 
@@ -142,7 +142,7 @@ ul {
 
 .card.choc img {
   height: 350px;
-  
+
 }
 
 div a {
@@ -214,8 +214,18 @@ body {
 
   font-size: 18px;
   padding: 18px;
+  list-style: none;
 }
 
+.la {
+  text-transform: uppercase;
+  border: solid;
+  margin: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: beige;
+  border-radius: 9px;
+}
 
 
 
@@ -240,6 +250,7 @@ fieldset input {
   border-radius: 8px;
 
 }
+
 
 
 
@@ -346,19 +357,35 @@ footer a img {
   color: #ffffff;
   border: 0;
   border-radius: 0.5rem;
-  cursor: pointer ;
-  transition: padding 0.30 ease ;
+  cursor: pointer;
+  transition: padding 0.30 ease;
   width: 500px;
   height: 210px;
-  
-  }
-  .marcass:hover{
-    padding: 1rem ;
-    transition: all 1.5s;
-    
-    
-  }
-  
+
+}
+
+.marcass:hover {
+
+  transition: all 0.2s;
+  padding: 20px
+}
+
+.efecto :hover {
+ 
+  transition: all 3s;
+  padding: 30px;
+  width: 600px;
+
+}
+
+.efecto {
+  display: flex;
+  transition: padding 4 ease;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
 
 aside {
   justify-content: center;
@@ -366,11 +393,11 @@ aside {
 }
 
 
-.color li{
+.color li {
   background-color: #71d9f8;
   text-align: center;
   font-size: 25px;
-  border-radius: 25px ;
+  border-radius: 25px;
   list-style: none;
 }
 
@@ -381,14 +408,15 @@ footer {
 }
 
 .redes img {
-  
+
   width: 150px;
   height: 150px;
-  
+
 }
-.redes{
-  display:inline ;
-  
+
+.redes {
+  display: inline;
+
 }
 
 /*
