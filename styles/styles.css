@@ -99,6 +99,10 @@ ul {
 
 
 /* fin del header comienza el main index*/
+.glas{
+
+}
+
 .fondo{
   width: 1300px
   
@@ -129,9 +133,11 @@ ul {
 }
 
 .card {
+
   border-color: black;
   border-radius: 20px;
   background-color:aliceblue;
+  
 
 }
 
