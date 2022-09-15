@@ -120,15 +120,13 @@ ul {
 
 
 .cards {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px;
-  margin: 0px;
-  margin-bottom: 200px;
-  margin-top: 200px;
-
+ display: inline-flex;
+ padding: 0px;
+ margin: 0px;
+ justify-content: space-evenly;
 
 }
+
 
 .card {
 
@@ -141,7 +139,7 @@ ul {
 }
 
 .card.choc img {
-  height: 350px;
+  height: 380px;
 
 }
 
