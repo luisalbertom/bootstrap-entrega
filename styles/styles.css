@@ -7,22 +7,15 @@
 
 
 
-a {
-  text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black;
-
-}
 
 nav {
   display: flex;
   justify-content: center;
-  border-radius: 15px;
-  font-size: 25px;
-
-
-
+  border-radius: 1rem;
+  font-size: 2rem;
+  
 }
+
 
 /*aqui comienza el body, header */
 
@@ -120,13 +113,15 @@ ul {
 
 
 .cards {
- display: inline-flex;
- padding: 0px;
- margin: 0px;
- justify-content: space-evenly;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+
 
 }
-
 
 .card {
 
@@ -135,22 +130,11 @@ ul {
   background-color: aliceblue;
   margin: 10px;
   padding: 5px;
-}
-.card {
-  margin: 100px;
-  padding: 10px;
-  align-content: center;
-  bottom: 25px;
-
-
-}
-.card img{
-  width:380px;
 
 }
 
-.card.choc img {
-  height: 380px;
+.choc img {
+  height: 270px;
 
 }
 
@@ -326,12 +310,18 @@ footer a img {
   
 }*/
 .ubicacion {
-  border: 05px solid;
+  border: 02px solid;
   grid-area: ubicacion;
   display: flex;
   justify-content: space-around;
-  padding: 18px;
+  padding: 3rem;
+  
 }
+.row.ub{
+  margin: 1rem;
+  padding-bottom: 7rem ;
+}
+
 
 /*.header {
   grid-area: header;
