@@ -8,13 +8,6 @@
 
 
 
-nav {
-  display: flex;
-  justify-content: center;
-  border-radius: 1rem;
-  font-size: 2rem;
-  
-}
 
 
 /*aqui comienza el body, header */
@@ -94,6 +87,17 @@ ul {
 /* fin del header comienza el main index*/
 
 
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  font-size: 2rem;
+
+}
+
+
 .fondo {
   width: 1300px
 }
@@ -102,12 +106,33 @@ ul {
   width: 1250px;
   right: 35px;
 
+
 }
+
+.navbar-nav.hover {
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: padding 0.30 ease;
+  font-size: 1.5rem;
+}
+
+.hober:hover {
+  border-radius: px;
+  transition: 0.9s ease-out;
+  padding: 0px;
+  font-size: 40px;
+}
+
+
+
+
+
 
 .container {
   text-align: justify;
   padding: 5px;
   margin: 3px;
+
 }
 
 
@@ -139,7 +164,7 @@ ul {
 }
 
 div a {
-  width: 280px;
+  width: 100%;
 
 
 
@@ -224,12 +249,6 @@ body {
 
 
 
-
-
-
-
-
-
 /* comienza el seccion*/
 form fieldset {
   background-color: rgb(0, 0, 0);
@@ -283,75 +302,27 @@ footer a img {
 
 }
 
-.body {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "productos productos productos"
-    "ubicacion ubicacion ubicacion"
-    "footer footer footer";
-  grid-template-rows: 2fr 3fr 2fr 1fr;
-  grid-template-columns: 1fr auto 1fr;
-  height: 100vh;
-  row-gap: 120px;
-  column-gap: 10px;
 
-}
 
-/*.header{
-  background-color: red;
-}
-.main{
-  background-color: green;
 
-}
-.footer{
-  background-color: blue;
-  
-}*/
 .ubicacion {
   border: 02px solid;
   grid-area: ubicacion;
   display: flex;
   justify-content: space-around;
   padding: 3rem;
-  
+
 }
-.row.ub{
+
+.row.ub {
   margin: 1rem;
-  padding-bottom: 7rem ;
+  padding-bottom: 7rem;
 }
 
 
-/*.header {
-  grid-area: header;
-  position: fixed;
-  margin: 0px;
-  padding: 18px;
-  width: 1200px;
-  }*/
 
+.row.marcass {
 
-
-
-
-
-/*.main {
-  grid-area: productos;
-  font-size: 18px;
-  padding: 18px;
-}
-
-#textos {
-  background-color: #71d9f8;
-  margin-top: 200px;
-
-}
-*/
-.marcass {
-  display: flex;
-  align-content: space-between;
-  background-image: linear-gradient URL(./images/gomitas.jpg);
   font-size: 1.5rem;
   color: #ffffff;
   border: 0;
@@ -363,26 +334,61 @@ footer a img {
 
 }
 
-.marcass:hover {
+.marcass.img {
+  width: 100px;
 
-  transition: all 0.2s;
-  padding: 20px
+}
+
+
+.marcass:hover {
+  border-radius: 100px;
+  transition: all 0.9s;
+  padding: 5px;
+}
+
+.marcass {
+  border-radius: 0.8rem;
+}
+
+.rayas {
+  display: flex;
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: padding 0.30 ease;
+  width: 1128px;
+  height: 50px;
+
+
+}
+
+.rayas:hover {
+  border-radius: 25px;
+  transition: all 0.9s;
+  color: aqua;
+  background-color: black;
+  padding: 6px;
+  font-size: 1.5rem;
+  width: 610px;
+
+
+
 }
 
 .efecto :hover {
- 
   transition: all 3s;
-  padding: 30px;
-  width: 600px;
+  padding: 1.5rem;
+
 
 }
 
 .efecto {
-  display: flex;
+
   transition: padding 4 ease;
   border: 0;
   border-radius: 0.5rem;
   cursor: pointer;
+
 }
 
 
@@ -395,16 +401,12 @@ aside {
 .color li {
   background-color: #71d9f8;
   text-align: center;
-  font-size: 25px;
-  border-radius: 25px;
+  font-size: 150%;
+  border-radius: 25%;
   list-style: none;
 }
 
-footer {
-  grid-area: footer;
-  font-size: 15px;
-  padding: 18px;
-}
+
 
 .redes img {
 
@@ -414,80 +416,9 @@ footer {
 }
 
 .redes {
-  display: inline;
 
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 1rem;
 }
-
-/*
-
-
- @media screen and (max-width: 480px) and (min-height: 0px){
-  .body{
-    
-    grid-template-areas: 
-    "header "
-    "productos"
-    "ubicacion"
-    "footer ";
-    grid-template-rows: repeat (4, 1fr);
-    grid-template-columns: 1fr;
-    height: 100vh;
-    row-gap: 0px;
-    column-gap: 0px;  
-  
-    }
-
-.header{
-display: flex;
-align-content: space-between;
-width: 500px;
-height: 200px;
-margin: 0px;
-padding: 0px;
-left: 5px;
-  
-}
-.centrar{
-
-padding: 05px;
-margin: 4px;
-align-content: space-between;
-font-size: 25px;
-
-
-}
-
-li{
-  width: 25%;
-}
-.titulos{
-  margin-top: 70px;
-  padding: 0px;
-  font-size: 25px;
-
-}
-  
-
- }
-
-
-
-
- 
-  @media screen and (min-width: 481px) and (max-whidth: 1200px) {
-    .body{
-    
-      grid-template-areas: 
-      "header "
-      "productos"
-      "ubicacion"
-      "footer ";
-      grid-template-rows: repeat (4, 1fr);
-      grid-template-columns: 1fr;
-      height: 100vh;
-      row-gap: 0px;
-      column-gap: 0px;   
-  }
-}
-
-*/
