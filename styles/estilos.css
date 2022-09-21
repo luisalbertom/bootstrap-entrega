@@ -1,46 +1,30 @@
 * {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-
-
-
-
-
-
-
-
 /*aqui comienza el body, header */
-
-
-
-
-
-
 nav {
   display: flex;
   justify-content: center;
   border-radius: 1rem;
   font-size: 2rem;
-
 }
 
-
 .fondo {
-  width: 1300px
+  width: 1300px;
 }
 
 .clap {
   width: 1250px;
   right: 35px;
-
-
 }
 
 .navbar-nav.hover {
   border-radius: 1rem;
   cursor: pointer;
-  transition: padding 0.30 ease;
+  transition: padding 0.3 ease;
   font-size: 1.5rem;
 }
 
@@ -51,19 +35,11 @@ nav {
   font-size: 40px;
 }
 
-
-
-
-
-
 .container {
   text-align: justify;
   padding: 5px;
   margin: 3px;
-
 }
-
-
 
 .cards {
   display: flex;
@@ -72,32 +48,23 @@ nav {
   margin: 0px;
   margin-bottom: 200px;
   margin-top: 200px;
-
-
 }
 
 .card {
-
   border-color: black;
   border-radius: 20px;
   background-color: aliceblue;
   margin: 10px;
   padding: 5px;
-
 }
 
 .choc img {
   height: 270px;
-
 }
 
 div a {
   width: 100%;
-
-
-
 }
-
 
 .titulos {
   display: flex;
@@ -105,18 +72,12 @@ div a {
   font-size: x-large;
   padding: 18px;
   font-size: 35px;
-
 }
-
 
 .lista {
-  margin-top: 20%px;
+  margin-top: 20% px;
   padding: 18px;
 }
-
-
-
-
 
 .cigarro {
   margin: 5px;
@@ -128,13 +89,8 @@ div a {
 }
 
 .catalogo {
-
   display: flex;
   justify-content: space-around;
-
-
-
-
 }
 
 body {
@@ -153,11 +109,9 @@ body {
   cursor: pointer;
   margin: 15px;
   padding: 18px;
-
 }
 
 .escondido ol li {
-
   font-size: 18px;
   padding: 18px;
   list-style: none;
@@ -173,73 +127,43 @@ body {
   border-radius: 9px;
 }
 
-
-
-
-
-/* comienza el seccion*/
 form fieldset {
   background-color: rgb(0, 0, 0);
   color: #858080;
   border-radius: 20px;
   padding: 18px;
-
 }
 
 fieldset input {
   border-radius: 8px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* comienza el footer*/
 
 .color li {
   margin: 10px;
   padding: 15px;
-
 }
 
 .color li a {
   color: black;
-
 }
 
 footer ol li {
   font-size: 18px;
   padding: 6px;
-
-
 }
 
 footer a img {
   border-radius: 25px;
   padding: 15px;
   margin-top: 100px;
-
 }
 
-
-
-
 .ubicacion {
-  border: 02px solid;
+  border: 2px solid;
   grid-area: ubicacion;
   display: flex;
   justify-content: space-around;
   padding: 3rem;
-
 }
 
 .row.ub {
@@ -247,26 +171,20 @@ footer a img {
   padding-bottom: 7rem;
 }
 
-
-
 .row.marcass {
-
   font-size: 1.5rem;
   color: #ffffff;
   border: 0;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: padding 0.30 ease;
+  transition: padding 0.3 ease;
   width: 500px;
   height: 210px;
-
 }
 
 .marcass.img {
   width: 100px;
-
 }
-
 
 .marcass:hover {
   border-radius: 100px;
@@ -283,11 +201,9 @@ footer a img {
   border: 0;
   border-radius: 1rem;
   cursor: pointer;
-  transition: padding 0.30 ease;
+  transition: padding 0.3 ease;
   width: 1128px;
   height: 50px;
-
-
 }
 
 .rayas:hover {
@@ -298,33 +214,24 @@ footer a img {
   padding: 6px;
   font-size: 1.5rem;
   width: 610px;
-
-
-
 }
 
 .efecto :hover {
   transition: all 3s;
   padding: 1.5rem;
-
-
 }
 
 .efecto {
-
   transition: padding 4 ease;
   border: 0;
   border-radius: 0.5rem;
   cursor: pointer;
-
 }
-
 
 aside {
   justify-content: center;
   padding: 18px;
 }
-
 
 .color li {
   background-color: #71d9f8;
@@ -334,19 +241,16 @@ aside {
   list-style: none;
 }
 
-
-
 .redes img {
-
   width: 150px;
   height: 150px;
-
 }
 
 .redes {
-
   flex-direction: row;
   justify-content: space-evenly;
   padding: 1rem;
   margin: 1rem;
 }
+
+/*# sourceMappingURL=estilos.css.map */
