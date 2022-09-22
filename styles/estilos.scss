@@ -1,5 +1,7 @@
+@import "variables";
 @import "cabecera";
 @import "generales";
+@import "body";
   
 
   
@@ -24,57 +26,13 @@
 
 
   
-  .fondo {
-    width: 1300px
-  }
   
   
-  
+
  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .cards {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 200px;
-    margin-top: 200px;
-  
-  
-  }
-  
-  .card {
-  
-    border-color: black;
-    border-radius: 20px;
-    background-color: aliceblue;
-    margin: 10px;
-    padding: 5px;
-  
-  }
-  
-  .choc img {
-    height: 270px;
-  
-  }
-  
-  div a {
-    width: 100%;
-  
-  
-  
-  }
+
+
+
   
   
   .titulos {
