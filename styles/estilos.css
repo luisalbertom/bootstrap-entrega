@@ -1,3 +1,9 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -21,25 +27,42 @@ nav .clap .navbar-nav.hober:hover {
   font-size: 40px;
 }
 
-* {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 0px;
-  padding: 0px;
-}
-
 .container {
   text-align: justify;
   padding: 5px;
   margin: 3px;
 }
 
-@im .titulos {
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+.cards .card {
+  border-color: black;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 5px;
+}
+.cards .card .choc img {
+  height: 270px;
+}
+.cards .card .choc img div a {
+  width: 100%;
+}
+
+.titulos {
   display: flex;
   justify-content: space-around;
   font-size: x-large;
   padding: 18px;
   font-size: 35px;
 }
+
 .lista {
   margin-top: 20% px;
   padding: 18px;
