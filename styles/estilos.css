@@ -4,27 +4,30 @@
   padding: 0px;
 }
 
-nav {
+nav ul li a {
   display: flex;
   justify-content: center;
-  border-radius: 1rem;
   font-size: 2rem;
+  border-radius: 1rem;
 }
-nav .clap {
+nav ul li a:hover {
+  border-radius: px;
+  transition: 0.9s ease-out;
+  padding: 0px;
+  font-size: 40px;
+}
+nav ul li a:hover .clap {
   width: 1250px;
   right: 35px;
 }
-nav .clap .navbar-nav.hober {
+nav ul li a:hover .clap .fondo {
+  width: 1300px;
+}
+nav ul li a:hover .clap .fondo .navbar-nav hover {
   border-radius: 1rem;
   cursor: pointer;
   transition: padding 0.3 ease;
   font-size: 1.5rem;
-}
-nav .clap .navbar-nav.hober:hover {
-  border-radius: 0px;
-  transition: 0.9s ease-out;
-  padding: 0px;
-  font-size: 40px;
 }
 
 .container {

@@ -1,9 +1,11 @@
-@import "generales";
-@import "variables";
-@import "cabecera";
+@import "partials/generales";
+@import "partials/variables";
+@import "partials/cabecera";
+@import "partials/mixings";
+@import "partials/maps";
 
 @import "partials/body";
-@import "main";
+@import "partials/main";
   
 
   
