@@ -22,7 +22,7 @@ nav ul li a {
 
             .fondo {
                 width: 1300px;
-              
+                background-color:map-get($colores,backgroundheader);
 
 
                 .navbar-nav hover {
@@ -30,7 +30,7 @@ nav ul li a {
                     cursor: pointer;
                     transition: padding 0.30 ease;
                     font-size: 1.5rem;
-                    
+                  
 
 
 

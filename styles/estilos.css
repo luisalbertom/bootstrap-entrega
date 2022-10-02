@@ -43,8 +43,10 @@ nav ul li a:hover .clap .fondo .navbar-nav hover {
   margin: 0px;
   margin-bottom: 200px;
   margin-top: 200px;
+
 }
 .cards .card {
+  
   border-color: black;
   border-radius: 20px;
   background-color: aliceblue;
